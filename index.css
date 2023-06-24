@@ -1,11 +1,91 @@
-.main{
-    /* margin: 2.5rem 0 auto; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Geologica', sans-serif;
     background-image: url('backgroundhorizontal.jpg');
+    /* background-position: center; */
     background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: black; */
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3.5em;
+    width: 100vw;
+    height: 6em;
+    align-items: center;
+}
+.left{
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    font-size: 1.25em;
+    line-height: .75em;
+    animation-name: logorotate;
+    animation-iteration-count: 1;
+    animation-duration: 0.75s;
+    
+}
+@keyframes logorotate {
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(360deg);
+    }
+   
+}
+.left img{
+    filter: invert(100%);
+    width: 5rem;
+}
+.right{
+    width: 22.875em;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    padding-right: 2.8125em;
+    
+}
+.navbar li{
+    display: inline-block;
+    font-size: 1.25em;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 2.125rem 1.25rem;
+}
+.navbar li a:hover, .navbar li a.active{
+    color: grey;
+    text-decoration: underline;
+}
+.btn{
+    font-family: 'Geologica', sans-serif;
+    margin: 0 0.6em;
+    padding: 0.5em 1em;
+    outline: 0.125em solid gray;
+    border-radius: 0.625em;
+    background-color: black;
+    color: white;
+    font-size: 1em;
+}
+.btn:hover{
+    background-color: grey;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.125); 
+}
+.main{
+    margin: 2.5rem 0 auto;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    
 }
 .quote{
     color: white;
