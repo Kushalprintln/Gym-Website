@@ -58,7 +58,7 @@ body{
 .navbar li a{
     color: white;
     text-decoration: none;
-    padding: 2.125rem 1.25rem;
+    margin: 2.125rem 1.25rem;
 }
 .navbar li a:hover, .navbar li a.active{
     color: grey;
