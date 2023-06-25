@@ -138,7 +138,8 @@ input{
 .center-buttons .btn{
     width: 100vw;
 }
-@media  (max-width:1400px){
+/* -----------media  */
+/* @media  (max-width:1400px){
     body{
         background-position: center;
     }
@@ -249,4 +250,4 @@ input{
         margin: 0px auto;
         border: 0px;
     }
-}
+} */

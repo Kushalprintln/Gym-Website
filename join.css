@@ -1,0 +1,45 @@
+.select-container{
+    background: black;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+td img{
+    width: 1.5em;
+}
+.plan-card{
+    width: 300px;
+    /* background-color: black; */
+    color: white;
+    text-align: center;
+    line-height: 2;
+    /* border: 8px solid orangered; */
+    /* border-radius: 40px; */
+    border: 1px solid;
+
+}
+.plan-card:hover{
+    box-shadow: 10px 5px 8px red;
+}
+table{
+    width: 85%;
+    text-align: left;
+    margin: 0px auto;
+}
+.time{
+    font-size: 30px;
+    font-weight: 600;
+}
+.price{
+    font-size: 25px;
+}
+.sel-button{
+    width: 75%;
+    margin: 20px auto;
+    padding: 0.5em 0em;
+    border: 1px solid white;
+    font-weight: 700;
+}
+.sel-button:hover{
+    background-color: orangered;
+}
