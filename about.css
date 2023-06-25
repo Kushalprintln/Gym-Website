@@ -1,0 +1,109 @@
+.about-main{
+    background-color: #222222;
+}
+.about-container{
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+iframe{
+    margin: 25px;
+}
+.main-container{
+    text-align: center;
+    width: 55%;
+    color: white;
+}
+.part img{
+    width: 100%;
+}
+.our-trainers{
+    text-align: center;
+}
+.trainer-container{
+    width: 70%;
+    display: flex;
+    margin: 60px auto;
+    justify-content: space-evenly;
+}
+.card{
+    width: 200px;
+    text-align: center;
+}
+.card img{
+    border-radius: 20px;
+}
+.card:hover{
+    transform: translateY(-30px);
+}
+.follow img{
+    width: 20px;
+    /* filter: invert(100%); */
+    margin: 0 0.5rem;
+}
+.follow img:hover{
+    transform: scale(1.5);
+}
+/* =========WE-OFFER======== */
+.we-offer{
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+span{
+    color: orangered;
+}
+h3{
+    margin: 13px 0px;
+    color: orangered;
+}
+h1{
+    margin: 0.5em 0em;
+}
+.offer-container{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px auto;
+}
+.img-cont{
+    width: 200px;
+    height: 200px; 
+}
+.strength{
+    background-image:url('./Weoffer/big-dumbbells-white.jpg');
+    background-size: contain;
+}
+.diet{
+    background-image:url('./Weoffer/diet.avif');
+    background-size: contain;
+}
+.equip{
+    background-image:url('./Weoffer/Modern\ Equipments.avif');
+    background-size: contain;
+}
+.heart{
+    background-image:url('./Weoffer/healty\ heart.avif');
+    background-size: contain;
+}
+.effect{
+    width: inherit;
+    height: inherit;
+}
+.effect:hover{
+    background-image: radial-gradient(circle at center, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.8) 100%);
+}
+.of-card p{
+    color: white;
+}
+.of-card{
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+    justify-content: center;
+}

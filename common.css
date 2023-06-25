@@ -5,10 +5,10 @@
 }
 body{
     font-family: 'Geologica', sans-serif;
-    background-image: url('backgroundhorizontal.jpg');
+    /* background-image: url('backgroundhorizontal.jpg'); */
     /* background-position: center; */
-    background-size: cover;
-    background-repeat: no-repeat;
+    /* background-size: cover;
+    background-repeat: no-repeat; */
     /* background-color: black; */
 }
 .header{
@@ -48,7 +48,7 @@ body{
     width: 2rem;
 }
 .right{
-    width: 22.875em;
+    width: 17.875em;
     justify-content: center;
     display: flex;
     justify-content: center;    
@@ -85,4 +85,34 @@ body{
     color: white;
     cursor: pointer;
     transform: scale(1.125); 
+}
+
+
+/* --------------FOOTER---------------- */
+/* .lower-footer{
+    display: none;
+} */
+.lower-footer .footer{
+    color: white;
+    width: 100%;
+    background-color: rgba(1,1,1,1);
+    padding: 1.5em 4em;
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 2em; */
+}
+.lower-footer .shedule{
+    line-height: 2;
+}
+.lower-footer .follow{
+    text-align: center;
+    line-height: 3;
+}
+.lower-footer .follow img{
+    width: 30px;
+    filter: invert(100%);
+    margin: 0 0.5rem;
+}
+.lower-footer .follow img:hover{
+    transform: scale(1.5);
 }

@@ -1,8 +1,19 @@
 .main{
-    margin: 2.5rem 0 auto;
+    width: 100%;
+    height: 880px;
+    margin: 0rem 0 auto;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+}
+.main .background{
+    width: 100%;
+    height: 880px;
+    background-image: url('backgroundhorizontal.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: black; */
 }
 .quote{
     color: white;
@@ -71,33 +82,6 @@ input{
     margin: 0 0.5rem;
 }
 .side-footer .follow img:hover{
-    transform: scale(1.5);
-}
-.lower-footer{
-    display: none;
-}
-.lower-footer .footer{
-    color: white;
-    width: 100vw;
-    background-color: rgba(1,1,1,0.3);
-    padding: 1.5em 4em;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 2em;
-}
-.lower-footer .shedule{
-    line-height: 2;
-}
-.lower-footer .follow{
-    text-align: center;
-    line-height: 3;
-}
-.lower-footer .follow img{
-    width: 30px;
-    filter: invert(100%);
-    margin: 0 0.5rem;
-}
-.lower-footer .follow img:hover{
     transform: scale(1.5);
 }
 .center-buttons{
@@ -178,6 +162,15 @@ input{
 
 }
 @media  (max-width:780px){
+    *{
+        font-size: 14.75px;
+    }
+    .left img{
+        width: 4rem;
+    }
+    .navbar li a{
+        margin: 2.125em 0.8em;
+    }
     .footer{
         flex-direction: column;
     }
@@ -194,15 +187,7 @@ input{
 
 }
 @media (max-width:750px){
-    *{
-        font-size: 14.75px;
-    }
-    .left img{
-        width: 4rem;
-    }
-    .navbar li a{
-        padding: 2.125rem 0.25rem;
-    }
+    
 }
 @media (max-width:600px){
     *{
