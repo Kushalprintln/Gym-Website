@@ -9,23 +9,67 @@
 .main .background{
     width: 100%;
     height: 880px;
-    background-image: url('backgroundhorizontal.jpg');
+    background-image: url('baaackground.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    /* background-color: black; */
 }
 .quote{
-    color: white;
+    color:white;
     width: 16.75em;
     height: 3.5em;
     padding: 1.25rem 0;
     text-align: center;
-    font-family: 'Kablammo', cursive;
     font-size: 3.125em;
     border-radius: 1.25rem;
-    background-color: rgba(1,1,1,0.3);
 }
+.gallary{
+    text-align: center;
+}
+/* .gallary h1{
+    background-color: #222222;
+    color: orangered;
+} */
+.gallary-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0em 0px;
+}
+.gal-Quot{
+    width: 50%;
+    background-color: #222222;
+    color: white;
+    padding: 30px;
+}
+h1{
+    margin: 1em auto;
+}
+h2{
+    color: orangered;
+    margin: 1em auto;
+}
+.gal-images{
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px solid orangered;
+    border-radius: 30px;
+    margin: 30px;
+}
+figure{
+    margin: 1em;
+    text-align: center;
+}
+figure img{
+    width: 190px;
+}
+/* ===================== */
+
+
+
+
+
+
 .form{
     outline: 2px solid white;
     width: 25.438em;
