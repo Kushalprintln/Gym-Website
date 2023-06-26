@@ -1,8 +1,17 @@
-.select-container{
+.join-main{
+    text-align: center;
+}
+.select-package{
     background: black;
+    color: white;
+    text-align: center;
+}
+.select-container{
+    
     display: flex;
     justify-content: space-evenly;
     width: 100%;
+    padding: 2em 0px;
 }
 td img{
     width: 1.5em;
@@ -17,9 +26,14 @@ td img{
     /* border-radius: 40px; */
     border: 1px solid;
 
+
 }
 .plan-card:hover{
-    box-shadow: 10px 5px 8px red;
+    box-shadow: 10px 15px 15px red;
+}
+
+span{
+    color: orangered;
 }
 table{
     width: 85%;
@@ -43,3 +57,54 @@ table{
 .sel-button:hover{
     background-color: orangered;
 }
+/* --------form-------- */
+.form-section{
+    background-color: #222222;
+
+}
+.form-container{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0px auto;
+}
+.adm-img{
+    width: 50%;
+    text-align: center;
+}
+.adm-img img{
+    width: 409px;
+}
+.form{
+    background-color: black;
+    outline: 2px solid;
+    width: 50%;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    /* border-radius: 20px; */
+    /* margin: 0px auto; */
+    
+}
+input{
+    font-size: 1rem;
+    height: 1.56rem;
+}
+.small{
+    width: 13%;
+}
+.sub{
+    width: 50%;
+}
+.full{
+    /* width: 270px; */
+    width: 65%;
+}
+/* .form:hover{
+    background: rgba(1,1,1,.5);
+    /* border: 2px solid white; */
+    /* outline: 2px solid grey; */
+/* } */ 

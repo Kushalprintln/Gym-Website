@@ -70,35 +70,7 @@ figure img{
 
 
 
-.form{
-    outline: 2px solid white;
-    width: 25.438em;
-    padding: 1rem;
-    color: white;
-    text-align: center;
-    line-height: 40px;
-    font-size: 20px;
-    border-radius: 20px;
-}
-input{
-    font-size: 1rem;
-    height: 1.56rem;
-}
-.small{
-    width: 13%;
-}
-.sub{
-    width: 50%;
-}
-.full{
-    /* width: 270px; */
-    width: 65%;
-}
-.form:hover{
-    background: rgba(1,1,1,.5);
-    /* border: 2px solid white; */
-    outline: 2px solid grey;
-}
+
 
 .side-footer .shedule{
     line-height: 2;
