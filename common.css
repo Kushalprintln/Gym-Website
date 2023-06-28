@@ -5,12 +5,8 @@
 }
 body{
     font-family: 'Geologica', sans-serif;
-    /* background-image: url('backgroundhorizontal.jpg'); */
-    /* background-position: center; */
-    /* background-size: cover;
-    background-repeat: no-repeat; */
-    /* background-color: black; */
 }
+/* ---HEADER--- */
 .header{
     display: flex;
     justify-content: space-between;
@@ -19,9 +15,6 @@ body{
     height: 5em;
     align-items: center;
     background-color: black;
-}
-.orange{
-    color: orangered
 }
 .left{
     text-align: center;
@@ -34,6 +27,13 @@ body{
     animation-duration: 0.75s;
     
 }
+.left img{
+    filter: invert(100%);
+    width: 2rem;
+}
+.orange{
+    color: orangered
+}
 @keyframes logorotate {
     from{
         transform: rotateY(0deg);
@@ -42,10 +42,6 @@ body{
         transform: rotateY(360deg);
     }
    
-}
-.left img{
-    filter: invert(100%);
-    width: 2rem;
 }
 .right{
     width: 17.875em;
@@ -85,6 +81,9 @@ body{
     color: white;
     cursor: pointer;
     transform: scale(1.125); 
+}
+h1{
+    margin: 1em auto;
 }
 
 
