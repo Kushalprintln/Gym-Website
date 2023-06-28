@@ -83,7 +83,7 @@ body{
     transform: scale(1.125); 
 }
 h1{
-    margin: 1em auto;
+    margin-bottom: 0.5em;
 }
 /* ====CENTER BUTTON AND HIDEMENU===== */
 .center-buttons{
