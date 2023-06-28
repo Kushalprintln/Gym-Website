@@ -85,6 +85,27 @@ body{
 h1{
     margin: 1em auto;
 }
+/* ====CENTER BUTTON AND HIDEMENU===== */
+.center-buttons{
+    display: none;
+}
+.center-buttons .right{
+    width: 50vw;
+    margin: 20px auto;
+}
+.center-buttons .btn{
+    width: 100%;
+}
+.hidemenu{
+    filter: invert(100%);
+    width: 2rem;
+}
+.hidemenu img{
+    width: 100%;
+}
+.hidemenu{
+    display: none;
+}
 /* --------------FOOTER---------------- */
 /* .lower-footer{
     display: none;
@@ -142,27 +163,7 @@ h1{
         display: none;
     }
 }
-/* ====CENTER BUTTON AND HIDEMENU===== */
-.center-buttons{
-    display: none;
-}
-.center-buttons .right{
-    width: 50vw;
-    margin: 20px auto;
-}
-.center-buttons .btn{
-    width: 100%;
-}
-.hidemenu{
-    filter: invert(100%);
-    width: 2rem;
-}
-.hidemenu img{
-    width: 100%;
-}
-.hidemenu{
-    display: none;
-}
+
 /* ---FOOTER RESPONSIVE--- */
 @media (max-width:768px){
     .lower-footer .footer{
