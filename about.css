@@ -30,12 +30,16 @@ iframe{
 .card{
     width: 200px;
     text-align: center;
+    transition: all 0.5s;
+    transition-timing-function: ease-out;
+
+    
 }
 .card img{
     border-radius: 20px;
 }
 .card:hover{
-    transform: translateY(-30px);
+    transform: translate(0, -30px);
 }
 .follow img{
     width: 20px;
