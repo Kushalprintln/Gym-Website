@@ -15,6 +15,10 @@
     width: 100%;
     padding: 2em 0px;
 }
+.center-buttons .btn{
+    background-color: orangered;
+    color: white;
+}
 td img{
     width: 1.5em;
 }
@@ -30,14 +34,11 @@ td img{
     transition: all 0.3s;
     transition-timing-function: ease-out;
     margin: 1em 1em;
-
-
 }
 .plan-card:hover{
     box-shadow: 10px 15px 15px red;
     transform: rotateY(-20deg);
 }
-
 span{
     color: orangered;
 }

@@ -1,18 +1,22 @@
 .contact-img img{
     width: 100%;
 }
-.numbers span {
+.numbers{
     display: flex;
-    /* justify-content: space-around; */
+    flex-direction: column;
     align-items: center;
-    width: 30%;
+    width: 90%;
     justify-content: center;
     margin: 10px auto;
     font-size: 60px;
     font-weight: 550;
     gap: 15px
 }
-span img{
+.num{
+    display: flex;
+    gap: 15px;
+}
+.num img{
     width: 60px;
 }
 .map{
@@ -26,12 +30,25 @@ span img{
     justify-content: space-between;
     background-color: #222222;
 }
+.buttn{
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px
+}
+span a{
+    text-decoration: none;
+    color: white;
+}
 .mail-but,.copy-but{
     font-size: 20px;
     border: 2px solid black;
-    padding: 2px;
-    background-color: orange;
+    border-radius: 5px;
+    padding: 3px;
+    background-color: orangered;
     color: white;
+    width: 104px;
 }
 iframe{
     width: 49%;
@@ -47,4 +64,66 @@ input,textarea{
     border-bottom: 3px solid white;
     margin: 10px;
     width: 100%;
+}
+/* ====MEDIA==== */
+@media (max-width:1400px){
+    
+}
+@media (max-width:1200px){
+
+}
+@media (max-width:992px){
+    .map-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    iframe{
+        width: 90%;
+    }
+    .touch-form{
+        width: 90%;
+    }
+    .numbers{
+        font-size: 40px;
+    }
+    span img{
+        width: 40px;
+    }
+    
+}
+@media (max-width:766px){
+
+    
+}
+@media (max-width:700px){
+    
+}
+@media (max-width:677px){
+    .numbers{
+        font-size: 2em;
+    }
+    .num img{
+        width: 1em;
+    }
+    
+}
+@media (max-width:600px){
+   
+}
+@media (max-width:768px){
+
+}
+@media (max-width:550px){
+    .numbers{
+        font-size: 1.3em;
+    }
+    .num img{
+        width: 1.3em;
+    }
+    .num{
+        gap: 10px;
+    }
+    
+
 }
